@@ -74,7 +74,7 @@ function mdl_category($id){
 
 $return_arr = array();
 
-	$mysqli = new mysqli('localhost', 'db_lms_main3v', 'HmE7nlFGZGT9zASf', 'db_lms_main3v_1819');
+	$mysqli = new mysqli('localhost', '', '', '');
 		if (mysqli_connect_errno()) {
   			echo json_encode(array('mysqli' => 'Failed to connect to MySQL: ' . mysqli_connect_error()));
   			exit;
