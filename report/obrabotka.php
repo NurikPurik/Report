@@ -10,7 +10,7 @@ $time = time();
 
 $key = $gkey . str_pad($col, 2, "00", STR_PAD_LEFT);
 
-$link = mysqli_connect('localhost', 'db_lms_main3v', 'HmE7nlFGZGT9zASf') or die ('Error connecting to mysql: ' . mysqli_error($link));
+$link = mysqli_connect('localhost', '', '') or die ('Error connecting to mysql: ' . mysqli_error($link));
 mysqli_select_db($link, 'db_lms_main3v_1819');
 $link->set_charset("utf8");
 
