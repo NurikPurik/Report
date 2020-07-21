@@ -12,7 +12,7 @@ header('Content-Type: application/json');
 
 $input = filter_input_array(INPUT_POST);
 
-$mysqli = new mysqli('localhost', 'db_lms_main3v', 'HmE7nlFGZGT9zASf', 'db_lms_main3v_1819');
+$mysqli = new mysqli('localhost', '', '', '');
 mysqli_set_charset($mysqli,"utf8");
 
 if (mysqli_connect_errno()) {
