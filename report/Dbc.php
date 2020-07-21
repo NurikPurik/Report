@@ -9,10 +9,10 @@ class Dbc {
 
  public function connect(){
  
-    $this->host = "ablaikhan.kz";
-    $this->username = "bahythan";
-    $this->password = "3azr4eeq";
-    $this->dbname = "www_portal";
+    $this->host = "";
+    $this->username = "";
+    $this->password = "";
+    $this->dbname = "";
  
 	$conn = new mysqli($this->host, $this->username, $this->password, $this->dbname); 	
  	if(!$conn){
